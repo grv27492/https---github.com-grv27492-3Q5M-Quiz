@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)file:///C:/Users/gsharma/Downloads/3Q5M_quiz_page_interactive%20(1).html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>3Q5M-3 Questions 5 Minutes</title>
+<style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 40px;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        section {
+            margin-top: 30px;
+        }
+        h2 {
+            color: #004080;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .bookmark {
+            margin-top: 50px;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border-left: 5px solid #004080;
+        }
+    </style>
+<style id="__web-inspector-hide-shortcut-style__">
+.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
+{
+    visibility: hidden !important;
+}
+</style></head>
+<body>
+<header>
+<h1>3Q5M-3 Questions 5 Minutes</h1>
+<p>A weekly quiz to promote continuous learning and team alignment</p>
+</header>
+<section>
+<h2>Quiz Format</h2>
+<p>This quiz consists of 3 multiple choice questions:</p>
+
+
+</section>
+
+
+
+<div class="quiz-container">
+<h2>Question 1: What is the purpose of asset management during onboarding?</h2>
+<ul>
+<li onclick="checkAnswer(this, true)">To ensure new hires receive necessary equipment</li>
+<li onclick="checkAnswer(this, false)">To track employee attendance</li>
+<li onclick="checkAnswer(this, false)">To manage payroll</li>
+</ul>
+<h2>Question 2: Which platform is used for real-time collaboration at Accurate Background?</h2>
+<ul>
+<li onclick="checkAnswer(this, false)">Slack</li>
+<li onclick="checkAnswer(this, true)">Microsoft Teams</li>
+<li onclick="checkAnswer(this, false)">Zoom</li>
+</ul>
+<h2>Question 3: What should be done after resolving a high-priority ticket?</h2>
+<ul>
+<li onclick="checkAnswer(this, false)">Ignore it</li>
+<li onclick="checkAnswer(this, false)">Delete the ticket</li>
+<li onclick="checkAnswer(this, true)">Document the resolution for future reference</li>
+</ul>
+</div>
+<section class="bookmark" id="TechOps-Accurate">
+<h2>TechOps-Accurate</h2>
+<p>Bookmark for quick access to TechOps-Accurate section.</p>
+</section><script>
+function checkAnswer(element, isCorrect) {
+  if (element.classList.contains("answered")) return;
+  element.classList.add("answered");
+  if (isCorrect) {
+    element.style.color = "blue";
+    element.innerHTML += " ✔️";
+  } else {
+    element.style.color = "red";
+    element.innerHTML += " ❌";
+  }
+}
+</script>
+<style>
+.quiz-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.quiz-container li {
+  cursor: pointer;
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.quiz-container li:hover {
+  background-color: #e0e0e0;
+}
+</style>
+
+
+</body></html>
